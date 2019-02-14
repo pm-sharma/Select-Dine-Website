@@ -1,0 +1,83 @@
+<!-- ===== WEBSITE DEVELOPED BY - Purushottam Sharma (17BIT0206) ====== -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Select Dine</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Select Dine | VIT." />
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <style type="text/css">
+      
+      #logo{
+        height: 5vh;
+        width: 8vw;
+        margin-top: -8px;
+      }
+      @media (max-width: 800px){
+        #logo{
+          height: 3vh;
+          margin-top: -10px;
+        }
+
+      }
+    </style>
+
+
+    </head>
+  <body>
+    <!-- ===== WEBSITE DEVELOPED BY - Purushottam Sharma (17BIT0206) ====== -->
+    <!-- ============ LOADER INTEGRATED ============== -->
+
+    <div id="overlay">
+    </div>
+
+    <!-- ============ DIV CONTAINING MAIN CONTENT ============== -->
+    <div id="mainContent">
+    <nav id="navBar" class="navbar navbar-inverse navbar-fixed-top">
+      <div id="navCont" class="container-fluid" style="margin-top: 8px;">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="home.html">
+            <img id="logo" src="image/SelectDine.png" alt="Select Dine" >
+          </a>
+          </div>
+          <div class="collapse navbar-collapse" id="myNavbar">
+          <ul id="navLinks" class="nav navbar-nav navbar-right">
+            <li><a data-toggle="collapse" data-target=".navbar-collapse.in" id="disp" class="lAd link3" href="#section1" >Home</a></li>
+            <li><a data-toggle="collapse" data-target=".navbar-collapse.in" id="linkAddress" class="lAd anchor2" href="#imageCarousel1">Product</a></li>
+            <li><a data-toggle="collapse" data-target=".navbar-collapse.in" id="linkAddress" class="lAd anchor3" href="#imageCarousel2">Team</a></li>
+            <li><a data-toggle="collapse" data-target=".navbar-collapse.in" id="linkAddress" class="lAd anchor4" href="#imageCarousel3">Portfolio</a></li>
+            <li><a data-toggle="collapse" data-target=".navbar-collapse.in" id="linkAddress" class="lAd link1" href="#about" >About Us</a></li>
+            <li><a data-toggle="collapse" data-target=".navbar-collapse.in" id="linkAddress" class="lAd link2" href="#contact">Contact Us</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+</div>
+
+<div style="height: 60vh;width:67.5%;background-color: cyan;z-index: 20;border:2px solid red;border-top: none;border-left: none;"><p style="text-align: center;position: relative;top: 70%;font-size: 4em"><b style="object-fit: cover">Boost Your Restaurant here</b></p><h3 style="position: relative;top: 66%;left:12.63%">with Select Dine</h3></div>
+	<!-- ===== WEBSITE DEVELOPED BY - Purushottam Sharma (17BIT0206) ====== -->
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Script for navBar color changes -->
+    <script src="js/navBar.js"></script>
+
+    <script>
+
+    $(".navbar-nav li a").click(function(event) {
+    $(".navbar-collapse").collapse('hide');
+  });
+    
+    </script>
+    <!-- ===== WEBSITE DEVELOPED BY - Purushottam Sharma (17BIT0206) ====== -->
+  </body>
+</html>
