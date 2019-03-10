@@ -3,6 +3,33 @@ body{
   overflow-x: hidden;
 
 }
+#boost{
+  font-size: 4em;
+
+}
+#mainbox{
+  margin: 7.5vw 5vw 7.5vw 5vw;
+}
+#redborder{
+  height: auto;width:70%;border:2px solid red;border-top: none;border-left: none;
+}
+@media (max-width: 800px){
+  #boost{
+    font-size: 1.8em;
+  }
+  #reborder{
+  height: auto;width:70%;border:2px solid red;border-top: none;border-left: none;
+
+  }
+  #mainbox{
+    margin: 15vw 5vw 7.5vw 20px;
+    display: block;
+    margin-left: auto;
+  text-align: center;
+  margin-left: 5vw;
+
+  }
+}
 a:hover{
   text-decoration: none;
 }
@@ -43,14 +70,19 @@ a:hover{
 .mainboxs{
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
-#mainbox,.portal{
-  display: inline-block;
-  margin-left: 100px;
-  align-items: center;
-  text-align: center;
 
-}
 .portal{
   padding-top: 10px;
 
+}
+
+
+
+@media (min-width: 800px){
+  #mainbox,.portal{
+  display: inline-block;
+  margin-left: 85px;
+  align-items: center;
+  text-align: center;
+}
 }
